@@ -1,0 +1,27 @@
+{
+  "id": "did:web:sumanthnistala.github.io",
+  "verificationMethod": [
+    {
+      "type": "Multikey",
+      "id": "did:web:sumanthnistala.github.io#keys-1",
+      "controller": "did:web:sumanthnistala.github.io",
+      "publicKeyMultibase": "zDnaeR76adeNM7q8wGiUsmAivxdGbdm6GiKWfuS68VwLF46MN"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "authentication": [
+    "did:web:sumanthnistala.github.io#keys-1"
+  ],
+  "assertionMethod": [
+    "did:web:sumanthnistala.github.io#keys-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:sumanthnistala.github.io#keys-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:sumanthnistala.github.io#keys-1"
+  ]
+}
